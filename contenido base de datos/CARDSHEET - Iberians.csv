@@ -1,0 +1,16 @@
+Name,Card ID,Culture Identity,Cost,Culture cost,Supertype,Rulestext,P/T,Set
+Iberian vanilla,001A,Iberian,2,I,Unit,-,4/1,ALP
+Iberian conjurer,002A,Iberian,2,II,Unit,"When this card is placed, you have to destroy two adjacent units, one must be under your control.",1/1,ALP
+Numancian swamp dweller,003A,Iberian,2,III,Unit,"Treats swamps as plains hexes, while this unit is in the swamp gains +1/+1.",2/2,ALP
+Lusitanian guerilla,004A,Iberian,3,II,Unit,"When this unit dies, place a 1/1 token where it died, if the hex is occupied it fights the unit on the hex. This unit Takes no damage from swamps.",2/2,ALP
+Balearic slingers,005A,Iberian,3,III,Unit,Ranged 2. Takes no damage from swamps.,3/1,ALP
+Lusitanian bandits,006A,Iberian,4,II,Unit,Whenever a unit dies adjacent to this unit gain (1). Takes no damage from swamps.,2/2,ALP
+Avatar of Airon,007A,Iberian,5,IIIII,Unit,"When this unit is placed, sacrifice 3 adjacent units or remove it from play, whenever a unit is sacrificed adjacent to this unit gains +1/+1 permanently. Pay (1): sacrifice an adjacent unit.",1/1,ALP
+Village burial grounds,008A,Iberian,2,III,Building,"Once per turn: return 3 cards from your grave to your deck, if you do add (1). Shuffle your deck.",-,ALP
+Vetton Sacrificial altar,009A,Iberian,3,II,Building,"During your turn, sacrifice an adjacent unit you control: add (1).",-,ALP
+Dama de Elche,010A,Iberian,5,IIIII,Artifact,"Whenever a unit you control dies you may pay (1) if you do, draw a card.",-,ALP
+Graven goods,011A,Iberian,1,I,Intervention,If target Unit you control dies this turn add 3(G).,-,ALP
+Improvised defenses,012A,Iberian,3,III,Intervention,"Place 3 trap tokens on 3 unoccupied hexes you control, secretly mark one of them as the real trap. If a unit your opponents control moves to the hex with the real trap it is destroyed and you place a 2/2 token in its place under your control.",-,ALP
+Defense of the hearth,013A,Iberian,3,III,Ritual,Place 3 1/1 tokens on unoccupied hexes.,-,ALP
+Inherited will,014A,Iberian,4,III,Ritual,"Target 3 cards in your grave, an opponent of your choice adds one to your hand, one to an unoccupied hex you control and one is removed from play.",-,ALP
+Cave village,015A,Iberian,-,I,Land,"Whenever an enemy unit enters an adjacent hex, place a 1/1 token on this unoccupied hex.",-,ALP

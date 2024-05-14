@@ -1,0 +1,16 @@
+Name,Card ID,Culture Identity,Cost,Culture cost,Supertype,Rulestext,P/T,Set
+Hittite footsoldier,76A,Hittites,2,H,Unit,-,3/2,ALP
+Slave miners,77A,Hittites,2,HH,Unit,"Sacrifice this unit and the mine its adjacent to add (3), then you may discard a card, if you do draw a card.",0/1,ALP
+Hittite flame slingers,78A,Hittites,3,HH,Unit,"Ranged 1. When this unit is placed, deal 2 damage to an adjacent unit.",2/1,ALP
+Maryannu riders,79A,Hittites,3,H,Unit,Ranged 2. Move 2.,2/1,ALP
+Overworked conscripts,80A,Hittites,3,HH,Unit,At the end of each one of your turns this unit deals 1 damage to itself.,5/3,ALP
+Mesedi guard,81A,Hittites,5,HHHH,Unit,All units adjacent to mesedi guard cannot be damaged. At the end of each of your turns this unit takes damage equal to half the damage prevented.,5/5,ALP
+War cart,82A,Hittites,2,HH,Vehicle,"Crew 2 Move 2. Whenever this unit destroys a unit, return it to full health. When this unit dies, discard a card.",4/3,ALP
+Open Conflict,83A,Hittites,1,H,Intervention,"Destroy 3 lands, you must control at least one of them that is a mountain.",-,ALP
+Sudden deployment,84A,Hittites,4,HH,Intervention,"Reveal the top 6 cards from your deck, place up to 2 Units that cost 3 or less onto unoccupied hexes without paying their cost, remove the rest from the game.",-,ALP
+Rushed plan,85A,Hittites,1,HH,Ritual,"Draw 2 cards, then discard 2 cards. Lose 2 life.",-,ALP
+By all means,86A,Hittites,2,HHHH,Ritual,"Remove from play half your deck, draw 4 cards, you can only play this card if its the last card in your hand",-,ALP
+Scattershot,87A,Hittites,3,HH,Ritual,Deal 2 damage to any unit on target hex. If you discard this card you may cast it paying (1) instead.,-,ALP
+Arrow rain.,88A,Hittites,4,H,Ritual,Deal 2 damage to all units in a 3 hex wide area.,-,ALP
+Armaggedon,89A,Hittites,8,HHHHH,Ritual,"Deal 4 damage to all units, then destroy all unoccupied lands, shuffle all lands from the grave into the land deck, each player draws lands until they have 4 lands in hand.",-,ALP
+Encampment,90A,Hittites,-,H,Land,"Deal 3 damage to an adjacent unit, then this hex becomes a plains.",-,ALP

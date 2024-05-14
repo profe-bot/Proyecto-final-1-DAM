@@ -1,0 +1,35 @@
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class PasswordHasher {
+    
+    public static String hashPassword(String password) {
+        try {
+          
+            MessageDigest md = MessageDigest.getInstance("SHA-256");
+            
+            //  Actualizar el MessageDigest con los bytes de la contraseña
+            md.update(password.getBytes());
+            
+          
+            byte[] bytes = md.digest();
+            
+       
+            StringBuilder sb = new StringBuilder();
+            for (byte b : bytes) {
+               // El sb.append toma un byte b, lo convierte en su representación hexadecimal y asegura que siempre tenga al menos dos dígitos hexadecimales. 
+               // (b & 0xff) operador de máscara bit a bit que se utiliza para asegurarse de que solo se toma en cuenta el byte menos significativo del valor de b
+               // Se suma 0x100 al resultado obtenido 
+               // el substring elimina el primer caracter
+                sb.append(Integer.toString((b & 0xff) + 0x100, 16).substring(1));
+            }
+            
+            
+            return sb.toString();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+// Usa el algoritmo Hash SHA-256 

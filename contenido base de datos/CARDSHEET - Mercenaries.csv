@@ -1,0 +1,11 @@
+Name,Card ID,Culture Identity,Cost,Culture cost,Supertype,Rulestext,P/T,Set
+Lone mercenary,91A,-,1,-,Unit,-,1/1,ALP
+Mercenary duo,92A,-,2,-,Unit,-,2/2,ALP
+Hired archers,93A,-,3,-,Unit,Ranged 2,2/2,ALP
+Mercenary company,94A,-,3,-,Unit,-,3/3,ALP
+Supply squad,95A,-,3,-,Unit,Other mercenaries you control receive +1/+1 and heal one additional damage per turn.,1/1,ALP
+Mercenary battalion,96A,-,4,-,Unit,-,4/4,ALP
+Mercenary warband,97A,-,5,-,Unit,-,5/5,ALP
+Rented boat,98A,-,2,-,Vehicle,Crew 1. move 2. This vehicle can carry one unit across sea tiles.,2/2,ALP
+Battle plans,99A,-,3,-,Intervention,Effect: Choose two: -Deal 1 damage to a unit. -Give a unit +1/1 permanently. -Draw then discard a card. -Move a unit one hex.,-,ALP
+Explore,100A,-,3,-,Ritual,"Draw two cards from your land deck, then put one on the board and the other back in the deck, draw a card.",-,ALP

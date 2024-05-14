@@ -1,0 +1,103 @@
+﻿- Un procedimiento que encripte una contraseña o un dato.
+
+
+DELIMITER //
+
+
+CREATE PROCEDURE encryptData(
+    IN contrasena VARCHAR(20),
+    OUT contrasena_encriptada VARCHAR(255)
+)
+BEGIN
+    SET @key_str = ''RnG623';
+    SET @encrypted_str = AES_ENCRYPT(contrasena, @key_str);
+    SET contrasena_encriptada = @encrypted_str;
+END //
+
+
+
+
+
+
+- Un procedimiento que desencripte esa contraseña o dato.
+
+
+DELIMITER //
+
+
+CREATE PROCEDURE decryptData(
+    IN contrasena VARCHAR(20),
+    OUT contrasena_encriptada VARCHAR(255)
+)
+BEGIN
+    SET @key_str = 'RnG623';
+    SET @decrypted_str = AES_DECRYPT(contrasena_encriptada, @key_str);
+    SET contrasena_encriptada = @decrypted_str;
+END //
+
+
+DELIMITER ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Un procedimiento que actualice la contraseña o dato de un participante (llamará al procedimiento de encriptar)
+
+
+
+
+DELIMITER //
+
+
+CREATE PROCEDURE UpdateParticipantPassword(
+    IN usuario_cambiando VARCHAR(20),
+    IN nueva_contrasena VARCHAR(20)
+)
+BEGIN
+    DECLARE id_cambio INT;
+    
+    -- Buscar el ID del participante basado en su nombre de usuario
+    SELECT id_usuario INTO id_cambio 
+    FROM usuarios 
+    WHERE nombre_usuario = usuario_cambiando;
+    
+    -- Verificar si se encontró un participante con el nombre de usuario dado
+    IF participant_id IS NOT NULL THEN
+        DECLARE contrasena_encriptada VARCHAR(255);
+        
+        -- Encriptar la nueva contraseña
+        CALL encryptData(nueva_contrasena, contrasena_encriptada);
+        
+        -- Actualizar la contraseña del participante en la tabla de usuarios
+        UPDATE usuarios SET contrasena = contrasena_encriptada WHERE id_usuario = usuario_cambiando;
+        
+        SELECT 'Contraseña actualizada exitosamente.' AS message;
+    ELSE
+        SELECT 'No se ha encontrado la cuenta.' AS message;
+    END IF;
+END //
+
+
+DELIMITER ;

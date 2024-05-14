@@ -1,0 +1,16 @@
+Name,Card ID,Culture Identity,Cost,Culture cost,Supertype,Rulestext,P/T,Set
+Expert mariner,61A,Phoenician,1,P,Unit,Can crew any vehicle independent of its crew cost.,0/1,ALP
+Seafaring explorer,62A,Phoenician,2,P,Unit,Gains +1/+1 for each permanent of another culture you control.,45323,ALP
+Ships captain,63A,Phoenician,4,P,Unit,-,45416,ALP
+Phoenician raft,64A,Phoenician,1,P,Vehicle,Crew 1. Move 3. This vehicle can carry 1 unit across water.,45324,ALP
+Gaulos,65A,Phoenician,4,PPP,Vehicle,Crew 3. Move 4. This vehicle can carry up to 3 units across water.,45448,ALP
+Trade market,66A,Phoenician,3,P,Building,During your turn discard a land card to generate one gold.,-,ALP
+Carthaginian port,67A,Phoenician,3,PP,Building,"Place on a sea hex, hexes cannot be placed on this tile. If there is vehicle on this hex, draw a card at the beginning of your turn",-,ALP
+Trade seal,68A,Phoenician,1,PP,Artifact,"You may run any amount of copies of this card in your deck. Sacrifice this artifact, offer one face up card from your hand for auction, in turn order each player may offer face down cards or gold until a deal is made, if no bets are accepted gain (1) and draw one card at the beginning of your next turn. Cards obtained this way do not have a culture recruitment associated.",-,ALP
+Favorable Winds,69A,Phoenician,1,P,Intervention,Move target unit up to 3 hexes.,-,ALP
+Drachma minting,70A,Phoenician,1,PP,Intervention,"Until the end of turn, all your gold costs are reduced by (1).",-,ALP
+Barter,71A,Phoenician,3,PP,Intervention,"Reveal the top 5 cards of your deck to a player of your choice, he separates them in two face up piles, choose one to add to your hand and one to send to your grave.",-,ALP
+Trade route,72A,Phoenician,2,P,Ritual,"Discard up to 4 cards, draw that many cards +1 at the beginning of your next turn.",-,ALP
+Paid betrayal,73A,Phoenician,X+2,PPPP,Ritual,Add target unit with X gold cost to your hand. Cards obtained this way have no culture cost associated.,-,ALP
+Colossal flood,74A,Phoenician,6,PPPP,Ritual,Return all permanents adjacent to a sea or river hex to their owners hands.,-,ALP
+Mare nostrum,75A,Phoenician,-,P,Land,"Place this hex on an unoccupied sea hex, the adjacent sea hexes cannot have hexes placed over them.",-,ALP

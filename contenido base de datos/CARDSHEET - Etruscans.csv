@@ -1,0 +1,16 @@
+Name,Card ID,Culture Identity,Cost,Culture cost,Supertype,Rulestext,P/T,Set
+Etruscan pikeman,031A,Etruscan,1,E,Unit,-,2/1,ALP
+Standard bearer,032A,Etruscan,2,EE,Unit,All friendly units in a one hex radius gain +0/1.,0/1,ALP
+Standard thrasher,033A,Etruscan,2,EE,Unit,All friendly units in a one hex radius gain +1/0.,0/1,ALP
+Villanovan slinger,034A,Etruscan,2,EE,Unit,"Dash 2, Ranged 1. This unit can move and attack on the same turn.",2/1,ALP
+Two sided axe warrior,035A,Etruscan,4,EE,Unit,Whenever this unit destroys another unit place a 1/1 token adjacent to it.,3/2,ALP
+Maris sanctuary,036A,Etruscan,3,EEE,Building,All etruscan units gain +1/+1.,-,ALP
+Etruscan boar vessel,037A,Etruscan,2,EE,Artifact,"The first time an adjacent unit under your control would die each turn, it remains at 1 toughness instead.",-,ALP
+Fasces,038A,Etruscan,4,EEEE,Artifact,"Whenever you would produce a unit token/s, produce an additional one.",-,ALP
+Militia recruitment,039A,Etruscan,1,E,Intervention,"Place 3 1/1 tokens on empty hexes, remove them from play at the beginning of your next end phase.",-,ALP
+Humanize,040A,Etruscan,4,EEE,Intervention,Turn a unit into a 1/1 with no abilities.,-,ALP
+Rapid development,041A,Etruscan,3,EEE,Ritual,Gain one gold for each unit you control. Destroy all your gold at the end of this turn.,-,ALP
+laurel wreath,042A,Etruscan,4,EE,Ritual,Give a unit +2/+2 and all adjacent units you control +1/+1 permanently.,-,ALP
+Refill the ranks,043A,Etruscan,6,EEEE,Ritual,Draw one card for each unit you control.,-,ALP
+Harvest festival,044A,Etruscan,6,EEEE,Ritual,Place a 1/1 token in any unoccupied hex you control.,-,ALP
+Palatine hill,045A,Etruscan,-,E,Land,"You can only have one copy of this card in your deck. At the start of your turn, you may pay (1), if you do, place a 1/1 token on this hex.",-,ALP

@@ -1,0 +1,98 @@
+﻿Plan de pruebas unitarias y de integración:
+
+
+Pruebas unitarias de búsqueda:
+
+
+
+
+-Paso de query a SQL:
+
+
+Entrada: Una búsqueda en un lenguaje más simple que SQL
+
+
+Salida esperada: La query se resuelve y muestra los resultados esperados según la guia de sintaxis.
+
+
+
+
+
+-Confirmación de la validez de los datos:
+
+
+Entrada: Una serie de datos inválidos.
+
+
+Salida esperada: El error apropiado explicando porque no se ha podido realizar la busqueda y refiriéndo a la guía sintáctica.
+
+
+
+
+
+
+-Probar la integración con el sistema de gestión de usuarios:
+
+Entrada: Usuario autenticado realiza una búsqueda.
+
+
+Salida esperada: Búsqueda se ejecuta con los permisos adecuados para el usuario autenticado.
+
+
+
+
+
+-Probar el sistema de registro de usuarios:
+
+Entrada: Los datos necesarios para el registro de un nuevo usuario.
+
+
+Salida esperada: Usuario nuevo con los datos y permisos adecuados.
+
+
+
+
+
+
+-Probar el sistema de edición/borrado de usuarios:
+
+Entrada: La orden de borrar o editar los datos de un usuario..
+
+
+Salida esperada: El update adecuado a la información del usuario.
+
+
+-Pruebas de la creación y manejo de mazos:
+
+Entrada: Los datos necesarios para la creación de un mazo.
+
+Entrada 2: La edición de el mazo posterior a su creación.
+
+
+Salida esperada: La entidad del mazo se crea y se actualiza correctamente.
+
+
+
+
+
+
+-Prueba de importación y exportación de usuarios:
+
+Entrada: Importar un mazo (archivo .txt)  al editor de mazos.
+
+Entrada 2: Exportar el mazo a un archivo .txt y proceder a su descarga.
+
+
+Salida esperada: El mazo se importa de un .txt y al exportarse devuelve un .txt.
+
+
+
+
+
+
+-Recuperación de contraseña:
+
+Entrada: Email al que mandar el form de cambio de contraseña olvidada
+
+
+Salida esperada: Se manda el formulario y cambia la contraseña correctamente.

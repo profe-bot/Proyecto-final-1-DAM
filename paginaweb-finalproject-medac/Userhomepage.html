@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project coastline</title>
+    <style>
+    .login {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 10px;
+      background-color: #EFEDDE;
+    }
+	.container {
+      position: relative;
+    }
+
+    .decks {
+      position: absolute;
+      top: 300px;
+      right: 0;
+      padding: 10px;
+      background-color: #EFEDDE;
+    }
+
+    .gamelog {
+      position: absolute;
+      top: 500px;
+      right: 0;
+      padding: 10px;
+      background-color: #EFEDDE;
+    }
+	footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      bottom: 0;
+      width: 100%;
+      background-color: #84A9C0;
+      color: white;
+      padding: 70px 0;
+    }
+  </style>
+  
+</head>
+<body>
+
+    <div class="login">
+    <p>Sign in or create an account.</p>
+	      <input type="text" placeholder="Email">
+		  <input type="email" placeholder="Password">
+    <button type="submit">Login</button>
+	<button type="submit">Register</button>
+	</div>
+	
+  <header>
+    <h1>Coastline</h1>
+  </header>
+  <div>
+    <h2>Advanced Card Search</h2>
+    <p>Name</p>
+    <form>
+      <input type="text" placeholder="Any word in the name">
+    </form>
+	<p>Text</p>
+    <form>
+      <input type="text" placeholder="Any text.">
+    </form>
+	<p>Type</p>
+    <form>
+      <input type="text" placeholder="Unit, Vehicle, Building, Artifact, Intervention, Ritual or Land">
+    </form>
+	<p>Gold cost</p>
+    <form>
+    <label for="costInput">Enter a Number:</label><br>
+    <input type="number" id="costInput" name="costInput"><br><br>
+	 <label for="dropdownSelect">Select an Option:</label><br>
+    <select id="costSelect" name="costSelect">
+      <option value="option1">=</option>
+      <option value="option2">Greater than</option>
+      <option value="option3">Less than</option>
+    </select><br><br>
+    </form>
+	<p>Culture cost</p>
+    <form>
+      <input type="text" placeholder="For example II or E ">
+    </form>
+	<p>Culture</p>
+  <form>
+    <input type="checkbox" id="checkbox1" name="Iberian" value="I">
+    <label for="checkbox1">Iberian</label><br>
+    <input type="checkbox" id="checkbox2" name="Celt" value="C">
+    <label for="checkbox2">Celt</label><br>
+	<input type="checkbox" id="checkbox3" name="Etruscan" value="E">
+    <label for="checkbox3">Etruscan</label><br>
+    <input type="checkbox" id="checkbox4" name="Mycenean" value="M">
+    <label for="checkbox4">Mycenean</label><br>
+    <input type="checkbox" id="checkbox5" name="Phoenician" value="P">
+    <label for="checkbox5">Phoenician</label><br>
+    <input type="checkbox" id="checkbox6" name="Hittite" value="H">
+    <label for="checkbox6">Hittite</label><br>
+    <input type="checkbox" id="checkbox7" name="None" value="N">
+    <label for="checkbox7">None</label><br><br>
+  </form>
+  
+  	<p>Power/Toughness search</p>
+    <form>
+	<select id="PTSelect" name="PTSelect">
+      <option value="option1">power</option>
+      <option value="option2">Toughness</option>
+    </select><br><br>
+    <label for="PTInput">Enter a Number:</label><br>
+    <input type="number" id="PTInput" name="PTInput"><br><br>
+	 <label for="dropdownSelect">Select an Option:</label><br>
+    <select id="PTCSelect" name="PTCSelect">
+      <option value="option1">=</option>
+      <option value="option2">Greater than</option>
+      <option value="option3">Less than</option>
+    </select><br><br>
+    </form>
+	<!-- Separate P/T into 2 tables one for power another for toughness-->
+	<p>Set</p>
+    <form>
+      <input type="text" placeholder="Set code here.">
+    </form>
+		<p>ID</p>
+    <form>
+      <input type="text" placeholder="Card ID here.">
+    </form>
+	
+	
+
+	<form>
+      <button type="submit">Search</button>
+    </form>
+
+	<!-- Still not sure how to display data in these, might just do a button to take you to another page? not sure-->
+	<div class="decks">
+    <h2>Decks</h2>
+    <p>Your decks go here.</p>
+    <button>Explore Decks</button>
+    </div>
+
+    <div class="gamelog">
+    <h2>Log Game</h2>
+    <p>Keep track of your game history and statistics with our log game feature.</p>
+    <button>Log Game</button>
+    </div>
+</div>
+
+  <footer>
+    <a href="FAQ.html">FAQ</a> 		<a href="#">Settings</a> 		<a href="#">Your profile 		<a href="contact us.html">Contact us!</a>
+  </footer>
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+Name,Card ID,Culture Identity,Cost,Culture cost,Supertype,Rulestext,P/T,Set
+Oracle of Delphos,046A,Mycenaean,2,GGGGG,Unit,"Once per turn, during your turn, guess the type of the top card of your library, reveal it, if you were correct, remove it from play and cast it at the beginning of the next turn.",0/2,ALP
+Shield wall,047A,Mycenaean,2,G,Unit,-,0/6,ALP
+Hoplite phalanx,048A,Mycenaean,4,GGGG,Unit,Units cannot move out of the adjacent hexes to this unit.,2/6,ALP
+Minoan trireme,049A,Mycenaean,3,G,Vehicle,"Crew 2 Move 3, You may discard a Ritual or Intervention to crew this vehicle for the turn.",3/4,ALP
+Library,050A,Mycenaean,1,G,Building,Once per turn: shuffle your library,-,ALP
+Acropolis,051A,Mycenaean,3,GGGG,Building,All your Rituals and interventions cost 1 less gold and require one less culture.,-,ALP
+Mask of Agamemnon,052A,Mycenaean,4,GGGG,Artifact,"Play with the top card of your library revealed, you may play the revealed card.",-,ALP
+Zeus's bolt,053A,Mycenaean,1,G,Intervention,Deal 3 damage to any unit in target hex.,-,ALP
+Inspiration,054A,Mycenaean,1,G,Intervention,Draw 3 cards then place 2 cards from your hand on the top of your deck.,-,ALP
+Marathon,055A,Mycenaean,2,GG,Intervention,"Move target unit you control 5 hexes, it dies at the end of turn.",-,ALP
+Poseidon's gust,056A,Mycenaean,2,GG,Intervention,Return target unit to its owners hand.,-,ALP
+Heated debate,057A,Mycenaean,2,GG,Ritual,"Draw 1 card for every card named ""Heated debate"" in all graveyards.",-,ALP
+Frantic scribing,058A,Mycenaean,3,GG,Ritual,"Select any number of cards from your grave and place them in any order at the top or bottom of your deck, take 1 damage for every card you place at the top of your deck.",-,ALP
+Greek fire,059A,Mycenaean,3,GG,Ritual,"Deal 3 damage in a 3 hex wide area, only affects units at sea.",-,ALP
+Coast of Knossos,060A,Mycenaean,-,G,Land,You may place 2 buildings on this hex. Buildings on this hex cost (1) less.,-,ALP

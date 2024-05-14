@@ -1,0 +1,6 @@
+Name,Card ID,Culture Identity,Cost,Culture cost,Supertype,Rulestext,P/T,Set
+Plains,101A,-,-,-,Land,-,-,ALP
+Forest,102A,-,-,-,Land,Units heal 2 damage per turn while on forest instead of 1.,-,ALP
+Mountain,103A,-,-,-,Land,"Non walkable, cannot be placed adjacent to another mountain.",-,ALP
+River,104A,-,-,-,Land,Walkable but can be crossed with boats.,-,ALP
+Swamp,105A,-,-,-,Land,Units lose one life instead of gaining one at the beginning of each turn.,-,ALP

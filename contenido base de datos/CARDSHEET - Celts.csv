@@ -1,0 +1,16 @@
+Name,Card ID,Culture Identity,Cost,Culture cost,Supertype,Rulestext,P/T,Set
+Runic wolf,016A,Celt,2,C,Unit,While this unit is in a forest it gains +1/+1.,45324,ALP
+Celtic warrior,017A,Celt,3,C,Unit,-,45385,ALP
+Runic boar,018A,Celt,3,CC,Unit,While this unit is in a forest it gains +2/+1.,45354,ALP
+Mystical druid,019A,Celt,4,CC,Unit,When this enters the board give +3/+3 divided as you want between any units you control.,45293,ALP
+Runic bear,020A,Celt,4,CCC,Unit,While this unit is in a forest it gains +2/+2.,45386,ALP
+Menhir,021A,Celt,3,CCC,Building,"If a unit moves onto this building's hex, it can move to any unoccupied forest hex.",-,ALP
+Megaliths,022A,Celt,9,CCCCC,Building,At the beginning of each turn each unit you control on a forest gains +3/+3 permanently.,-,ALP
+Nebra disk,023A,Celt,4,CCCC,Artifact,"At the beginning of your turn choose one:Gain (1).Draw and then discard a card.Sacrifice a forest.Sacrifice a Unit you control. When all 4 of these effects have been activated, sacrifice ""Nebra disk"" and take an additional turn after this one.",-,ALP
+Druidic elixir,024A,Celt,1,C,Intervention,Give target unit +3/+3 until end of turn.,-,ALP
+Druidic ritual,025A,Celt,1,C,Intervention,Choose one:  -Place one forest from your hand. -Return target artifact to its owner's hand. -Target unit gets +0/+3.,-,ALP
+Ritual Sacrifice,026A,Celt,2,C,Ritual,Sacrifice a unit you control. gain gold equal to double its power,-,ALP
+Bountiful harvest,027A,Celt,3,CC,Ritual,"Shuffle this card and all your grave into your deck, then for each card you returned gain one life.",-,ALP
+Rangers defense,028A,Celt,4,CCC,Ritual,"Place 2 1/2 units on unoccupied forest hexes, draw a card.",-,ALP
+Return to nature,029A,Celt,7,CCC,Ritual,Return all permanents in target hex to its owner's deck.,-,ALP
+Druidic forest,030A,Celt,-,C,Land,"When this land is placed, target two adjacent non forest, non sea hexes, they become forests.",-,ALP

@@ -1,0 +1,41 @@
+SQL sentences for each Advanced setting
+
+SELECT FROM WHERE
+
+Name search 
+SELECT * FROM cartas WHERE nombre = %inputed text%
+
+Text search
+SELECT * FROM cartas WHERE texto_reglas = %inputed text%
+
+Type search
+SELECT * FROM cartas WHERE supertipo = chosen type
+
+Cost search
+SELECT * FROM cartas WHERE coste = "inputed number"
+SELECT * FROM cartas WHERE coste < "inputed number"
+SELECT * FROM cartas WHERE coste > "inputed number"
+
+Culture cost search
+SELECT * FROM cartas WHERE coste_cultural = "inputed text"
+
+Culture search
+SELECT * FROM cartas WHERE cultura = chosen culture
+
+Set search
+SELECT * FROM cartas WHERE set = %inputed text%
+
+ID Search
+SELECT * FROM cartas WHERE id_carta = %inputed text%
+
+
+COMBINED SEARCHES ARE DONE WITH INTERSECT
+
+
+
+
+
+
+
+
+NEED a link attribute for the card so the SQL returns that cards link and image

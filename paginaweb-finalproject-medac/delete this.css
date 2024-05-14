@@ -1,0 +1,18 @@
+
+body {
+    margin: 0; 
+    padding: 0; 
+  
+    overflow-y: scroll; 
+}
+
+.backgroundcolor {
+    background: maroon;
+}
+
+/* Estilo para el contenido */
+.content {
+    max-width: 800px; 
+    padding: 20px; 
+    color: white; 
+}
